@@ -51,7 +51,7 @@
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_2"/>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="ProductAddLineEdit">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -120,9 +120,9 @@
    <widget class="QPushButton" name="ProductADDpushButton">
     <property name="geometry">
      <rect>
-      <x>310</x>
+      <x>290</x>
       <y>10</y>
-      <width>93</width>
+      <width>141</width>
       <height>51</height>
      </rect>
     </property>
