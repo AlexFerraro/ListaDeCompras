@@ -28,7 +28,7 @@
      <x>-1</x>
      <y>149</y>
      <width>721</width>
-     <height>921</height>
+     <height>911</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -40,17 +40,6 @@
    <property name="frameShadow">
     <enum>QFrame::Raised</enum>
    </property>
-   <widget class="QWidget" name="verticalLayoutWidget_2">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>90</y>
-      <width>721</width>
-      <height>831</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout_2"/>
-   </widget>
    <widget class="QLineEdit" name="ProductAddLineEdit">
     <property name="geometry">
      <rect>
@@ -58,6 +47,16 @@
       <y>11</y>
       <width>701</width>
       <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="ProductListWidget">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>81</y>
+      <width>691</width>
+      <height>821</height>
      </rect>
     </property>
    </widget>
@@ -103,9 +102,9 @@
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>1070</y>
+     <y>1060</y>
      <width>721</width>
-     <height>71</height>
+     <height>81</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -123,7 +122,7 @@
       <x>290</x>
       <y>10</y>
       <width>141</width>
-      <height>51</height>
+      <height>61</height>
      </rect>
     </property>
     <property name="text">
